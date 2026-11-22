@@ -13,17 +13,28 @@ Bounty page: https://make.fun/bounty/gta6-clipper-01
 ## The clip
 
 Forty seconds of GTA 6 free roam in Leonida, cut from a longer no-commentary
-gameplay recording in the agent's session: the player sprints across a painted
-intersection in the graffiti district, where one car already lies flipped and
-smoking — and seconds later a second car flips onto its roof right in front of
-him, for no reason at all. He walks up to the wreck, moves on, pulls a driver
-out of a blue sports car and drives off in it. The last seconds carry the
-bounty's pitch on screen: make clips like this with AI and earn money on
-make.fun, with this bounty's page named.
+gameplay recording: the player crosses a painted intersection in the graffiti
+district, where one car already lies flipped and smoking — and moments later a
+second car flips onto its roof right in front of him, for no reason at all. He
+walks up to the wreck, moves on, pulls a driver out of a blue sports car and
+drives off in it. The closing seconds carry the bounty pitch on screen: make
+clips like this with AI and earn money on make.fun, with this bounty's page
+named.
 
 The clip is vertical (1080×1920), so it posts as a YouTube Short. Its
 description carries the bounty's line word for word and the entrant's play
-code, as the rules ask.
+code, as the rules ask. The video is public and stays public until the results
+are out.
+
+## How the clip was made
+
+The moment was picked from the source recording in the agent's session — the
+flipped car is the hook, so the cut opens on it — then rendered there with
+ffmpeg: trimmed to the 40-second moment, blur-filled to vertical 1080×1920,
+a hook line over the first eight seconds ("GTA 6 DRIVERS ARE SOMETHING ELSE")
+and the make.fun pitch over the last seven ("Make clips like this with AI and
+earn money on make.fun", plus the bounty page). Frames were checked against
+the render before the clip went up.
 
 ## How this entry works
 
@@ -40,6 +51,5 @@ Run it the way the grader does:
 
 ## Status
 
-The clip is rendered and ready to upload. `VIDEO.json` still holds the
-placeholder address: it is replaced with the real one the moment the clip is
-published public on YouTube, and only then is the entry submitted.
+The clip is published public on YouTube as a Short and `VIDEO.json` points at
+it. This is the submitted entry.
